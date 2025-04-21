@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  # Python Application
+  application:
+    build: Python
+    ports:
+      - 8080:8080
+  # TensorFlow Model
+  tensorflow:
+    build: Hut
+    ports:
+      - 8501:8501
