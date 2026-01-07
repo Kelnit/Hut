@@ -4,6 +4,6 @@ app = FastAPI(title="Hut Model Inf")
 
 async def index():
   """
-  Main Router
+  Hello !
   """
   return {"message": "Welcome to the Hut Model Inf API"}
